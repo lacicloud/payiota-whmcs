@@ -1,7 +1,7 @@
 <?php
 
 /*
-If you are using and old WHMCS version and this callback doesn't work, uncomment these includes and comment out the New WHMCS Versions block below. - CoinPayments
+If you are using and old WHMCS version and this callback doesn't work, uncomment these includes and comment out the New WHMCS Versions block below. - (Credits to CoinPayments)
 # Old WHMCS Versions
 include("../../../dbconnect.php");
 include("../../../includes/functions.php");
