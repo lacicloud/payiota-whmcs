@@ -1,0 +1,1 @@
+WHMCS plugin for the PayIOTA.me payment gateway. See install.txt for further instructions.
