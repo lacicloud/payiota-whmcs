@@ -1,5 +1,9 @@
 <?php
 
+if (!defined("WHMCS")) {
+    die("This file cannot be accessed directly");
+}
+
 function payiota_config() {
     $configarray = array(
      "FriendlyName" => array("Type" => "System", "Value"=>"PayIOTA.me"),
