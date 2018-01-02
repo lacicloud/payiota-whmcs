@@ -58,7 +58,8 @@ function payiota_link($params) {
 		<input type="hidden" name="address" value="'.$response[0].'">
 		<input type="hidden" name="price" value="'.$response[1].'">
 		<input type="hidden" name="invoiceid" value="'.$params['invoiceid'].'">
-		<input type="hidden" name="systemurl" value="'.$params['systemurl'].'">
+		<input type="hidden" name="success_url" value="'.$params['systemurl'].'/clientarea.php?action=invoices">
+		<input type="hidden" name="cancel_url" value="'.$params['systemurl'].'">
 		</form>';
 		return $code;
 	
