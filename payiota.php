@@ -58,7 +58,7 @@ function payiota_link($params) {
 			}
 		}
 		$response = json_decode($response, true);
-		$code = '<form id="cpsform" action="https://payiota.me/external.php" method="GET">
+		$code = '<form id="payiotaform" action="https://payiota.me/external.php" method="GET">
 		<input type="hidden" name="address" value="'.$response[0].'">
 		<input type="hidden" name="price" value="'.$response[1].'">
 		<input type="hidden" name="invoiceid" value="'.$params['invoiceid'].'">
