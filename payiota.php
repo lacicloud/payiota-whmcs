@@ -63,7 +63,7 @@ function payiota_link($params) {
 		<input type="hidden" name="price" value="'.$response[1].'">
 		<input type="hidden" name="success_url" value="'.$params['systemurl'].'/clientarea.php?action=invoices">
 		<input type="hidden" name="cancel_url" value="'.$params['systemurl'].'">
-		<input type="image" width="301" style="cursor: pointer;" src="https://payiota.me/resources/paynow.png" alt="Pay Now with IOTA">
+		<input type="image" width="301" style="cursor: pointer;" src="https://payiota.me/resources/paynow.png" alt="Pay Now with PayIOTA.me!">
 		</form>';
 		return $code;
 	
